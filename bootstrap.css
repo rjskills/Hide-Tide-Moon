@@ -194,6 +194,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
     height: 100%;
 }
 
@@ -12060,4 +12061,3 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=bootstrap.css.map */
