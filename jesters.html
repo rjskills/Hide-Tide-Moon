@@ -25,21 +25,22 @@
     <link href="cover.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="icon" href="favicon.png" type="image/x-icon">
   </head>
-  <body>
-    <div class="p-5 mb-4 bg-light rounded-3 jumb-bk-img">
-  <div class="container-fluid py-5 text-center">
-    <h1 class="display-5 fw-bold story-heading">Hide Tide Moon</h1>
-    <h4 class="display-8 fw-bold story-heading">Creative Secrets of<br> Rose Mary Johnson</h4>
-    <div class="col-md-8 fs-4 fw-bold"></div>
-    
-  </div>
+  <body id="page-top" class="my-custom-gradient"> 
+  <button onclick="topFunction()" id="backtotopBtn" title="Go to top">Top</button>
+    <main>
+      <div class="container-fluid header-back">
+<header class="custom-header d-flex justify-content-center"> 
+  <a
+            href="/"
+            class="d-flex align-items-center text-decoration-none"
+          >
+<span class="fs-4 tourney-lead">Hide Tide Moon</span>
+          </a>
+</header>
 </div>
-    <nain>
-      
-
 <div class="container text-center">
   <nav aria-label="breadcrumb" style="padding:20px">
   <ol class="breadcrumb">
@@ -70,7 +71,7 @@ We are the jesters of sound.<br>Cawing to our flock all around.<br>A little misu
   <div style="min-height:50px"></div>
 </div>
     </main>
-<footer class="bg-dark">
+<footer class="bg-dark header-back">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6">
@@ -80,12 +81,6 @@ We are the jesters of sound.<br>Cawing to our flock all around.<br>A little misu
 
       <div class="col-xs-6 col-md-3">
         <img src="moon-100.png" alt="Moon Icon" class="img-fluid">
-        <h6 style="display:none">Out of this World</h6>
-        <ul class="footer-links" style="display:none">
-          <li><a href="http://yourwebsite.com/category/html/">HTML</a></li>
-          <li><a href="http://yourwebsite.com/category/css/">CSS</a></li>
-          <li><a href="http://yourwebsite.com/category/javascript/">JavaScript</a></li>
-        </ul>
       </div>
 
       <div class="col-xs-6 col-md-3">
@@ -101,7 +96,7 @@ We are the jesters of sound.<br>Cawing to our flock all around.<br>A little misu
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-sm-6 col-xs-12">
-        <p class="copyright-text">Copyright &copy; 2026 All Rights Reserved by
+        <p class="copyright-text">Copyright &copy; <span id="currentYear"></span> All Rights Reserved by
           <a href="https://rjskills.github.io/Hide-Tide-Moon/">Hide Tide Moon</a>.
         </p>
       </div>
@@ -117,7 +112,8 @@ We are the jesters of sound.<br>Cawing to our flock all around.<br>A little misu
     </div>
   </div>
 </footer>
-      
+<script src="yr.js"></script>
+ <script src="scroll.js"></script>
     <script
       src="bootstrap.bundle.min.js"
     ></script>
