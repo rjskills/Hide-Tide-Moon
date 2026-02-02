@@ -6,6 +6,12 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
+.writing-container{
+  background-color:#fff;
+  padding:10px;
+  border-radius:5px;
+}
+
 .cover-container {
   max-width: 42em;
 }
