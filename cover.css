@@ -265,10 +265,13 @@ footer .social-icons a {
 
 .tourney-lead {
   font-family: "Tourney", sans-serif;
-  font-size: 2.5rem !important;
   color:#fff;
   font-weight: 900;
   font-style:italic;
   font-variation-settings:
     "wdth" 125;
+}
+
+.sec-bk-color{
+  background-color:#000;
 }
