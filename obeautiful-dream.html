@@ -27,14 +27,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 <link rel="icon" href="favicon.png" type="image/x-icon">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="scroll.js"></script>
   </head>
 <body id="page-top" class="my-custom-gradient"> 
-  <button onclick="topFunction()" id="backtotopBtn" title="Go to top">Top</button>
+ <a href="" class="back-to-top background: #be521d;"><i id="icon" class="fa-solid fa-arrow-up-from-bracket"></i></a>
     <main>
-      <div class="container-fluid header-back">
+       <div class="container-fluid header-back">
+    <div class="spacer-15"></div>
        <header
-          class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+          class="d-flex flex-wrap justify-content-center py-3 mb-4"
         >
           <a
             href="/"
@@ -42,13 +46,15 @@
           >
           <img src="logo-40.png">
             <span class="fs-4 tourney-lead">Hide Tide Moon</span>
+            <span class="fs-12" style="margin-left:10px;font-style:italic"> - Creative Secrets of Rose Mary Johnson</span>
           </a>
-       <ul class="nav nav-pills px-5">
-            <li class="nav-item">
-              <i>Creative Secrets <br>of Rose Mary Johnson</i>
-               </li>
-          </ul>
+          <ul class="nav nav-pills flex-column flex-sm-row">
+            <li class="nav-item custom-pills"><a href="https://rjskills.github.io/Hide-Tide-Moon/#featured" class="nav-link active">Featured</a></li>
+            <li class="nav-item custom-pills"><a href="https://rjskills.github.io/Hide-Tide-Moon/#poetry" class="nav-link active">Poetry</a></li>
+            <li class="nav-item custom-pills"><a href="https://rjskills.github.io/Hide-Tide-Moon/#about" class="nav-link active">About</a></li>
+          </ul>  
         </header>
+         <div class="spacer-15"></div>
 </div>
 <div class="container text-center">
   <nav aria-label="breadcrumb" style="padding:20px">
@@ -122,7 +128,6 @@ You've taught me an escape from which to pretend.
   </div>
 </footer>
 <script src="yr.js"></script>
- <script src="scroll.js"></script>
     <script
       src="bootstrap.bundle.min.js"
     ></script>
