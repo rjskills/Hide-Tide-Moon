@@ -190,26 +190,41 @@ footer .social-icons a {
 .header-back{
   background-image: url(stars.png);
   background-repeat: repeat;
-  opacity: 50%;
+  /*opacity: 50%;*/
+}
+
+.banner-back{
+  background-image: url(banner.png);
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
+/* Carousel base class 
+.carousel{
+  margin-bottom:4rem;
 }
-/* Since positioning the image, we need to help out the caption */
+*/
+
+/* Since positioning the image, we need to help out the caption
 .carousel-caption {
+  top:1rem;
   bottom: 3rem;
   z-index: 10;
 }
+*/
 
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 32rem;
+
+/* Declare heights because of positioning of img element
+
+.carousel-item{
+  height:20rem;
 }
+
+*/
+
 
 
 /* MARKETING CONTENT
@@ -281,6 +296,10 @@ footer .social-icons a {
 
 .sec-bk-color{
   background-color:#000;
+}
+
+.trd-bk-color{
+  background-color: #9999cc;
 }
 
 .custom-pills{
