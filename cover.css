@@ -309,3 +309,7 @@ footer .social-icons a {
 .spacer-15{
   height:15px;
 }
+
+.custom-footer-size{
+  font-size:.75em;
+}
